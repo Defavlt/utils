@@ -15,7 +15,7 @@ Contains:
 		html::tag_name( data, attr )		//W/ attributes
 		html::tag_name( data, attr, type ); 	//W/ attributes
 
-		All paramters except type can be either 'string',
+		All parameters except type can be either 'string',
 		or 'array'.
 
 		If all three paramters is passed and type isn't 
