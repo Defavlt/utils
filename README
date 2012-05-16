@@ -1,0 +1,25 @@
+Utils:
+
+	Contains utility-stuff that can stand on its own,
+	but are wya too small to deserve its own repo.
+
+Contains:
+
+	* html.php:
+		
+		An html-class designed to standardize the way I
+		generate html in php. Use it like so:
+
+		html::tag_name(  ); 			//Self-enclosing
+		html::tag_name( data );			//Regular tag w/ data
+		html::tag_name( data, attr )		//W/ attributes
+		html::tag_name( data, attr, type ); 	//W/ attributes
+
+		All paramters except type can be either 'string',
+		or 'array'.
+
+		If all three paramters is passed and type isn't 
+		'html::tag_start' then 'data' and 'attr' will 
+		be discarded.
+
+
