@@ -18,7 +18,7 @@ Contains:
 		All parameters except type can be either 'string',
 		or 'array'.
 
-		If all three paramters is passed and type isn't 
+		If all three parameters is passed and type isn't 
 		'html::tag_start' then 'data' and 'attr' will 
 		be discarded.
 
